@@ -4,6 +4,6 @@ useradd -m -G wheel ty
 
 passwd ty
 
-echo 'ty   ALL=(ALL:ALL) NOPASSWD: ALL' >> /etc/sudoers
+echo 'ty ALL=(ALL:ALL) NOPASSWD: ALL' >> /etc/sudoers
 
 
