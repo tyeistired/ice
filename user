@@ -7,3 +7,4 @@ passwd ty
 echo 'ty ALL=(ALL:ALL) NOPASSWD: ALL' >> /etc/sudoers
 
 
+echo '%wheel ALL=(ALL:ALL) NOPASSWD: ALL' >> /etc/sudoers
