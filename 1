@@ -2,10 +2,8 @@
 
 pacman -Syu
 
-echo '[multilib]' >> /etc/pacman.conf
-echo 'Include = /etc/pacman.d/mirrorlist' >> /etc/pacman.conf
 
 pacman -Syyu
-pacman -Syu
+
 
 pacman -S nvidia nvidia-utils libva-vdpau-driver nvidia-settings amd-ucode lib32-nvidia-utils lib32-opencl-nvidia opencl-nvidia --noconfirm
