@@ -1,9 +1,9 @@
 #!/bin/bash
 
-pacman -S wget sudo --noconfirm
+pacman -S wget sudo curl --noconfirm
 
 pacman -Syyu
 
-wget -q -O chaotic-AUR-installer.bash https://raw.githubusercontent.com/SharafatKarim/chaotic-AUR-installer/main/install.bash && sudo bash chaotic-AUR-installer.bash && rm chaotic-AUR-installer.bash
+curl -Os https://codeberg.org/RaptaG/CAAIS/raw/branch/main/CAAIS
 
 pacman -Syyu
