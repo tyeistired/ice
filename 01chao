@@ -6,4 +6,6 @@ pacman -Syyu
 
 curl -Os https://codeberg.org/RaptaG/CAAIS/raw/branch/main/CAAIS
 
+sh CAAIS -i
+
 pacman -Syyu
