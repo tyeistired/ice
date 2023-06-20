@@ -16,6 +16,8 @@ grub-install
 
 grub-mkconfig -o /boot/grub/grub.cfg
 
+mkinitcpio -P
+
 pacman -S sudo dhcpcd
 
 
