@@ -1,6 +1,7 @@
 #!/bin/bash
 
 systemctl enable ly
+systemctl enable nohang
 
 sed -i 's/GRUB_CMDLINE_LINUX_DEFAULT="/& nvidia-drm.modeset=1 /' /etc/default/grub
 
