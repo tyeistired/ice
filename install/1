@@ -16,6 +16,10 @@ genfstab -U /mnt >> /mnt/etc/fstab
 
 arch-chroot /mnt
 
+git clone https://github.com/tyeistired/ice.git
+
+cd /ice/install
+
 
 
 
