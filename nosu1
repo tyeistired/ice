@@ -2,3 +2,5 @@
 
 
 tar -xvzf wofi.tar.gz -C /home/ty/.config/
+
+yay --save --devel
